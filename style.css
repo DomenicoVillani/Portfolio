@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #1e90ff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#download-cv{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    color: #1e90ff;
+}
+
+.blu-color{
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.carousel-item {
+    justify-content: center;
+    gap: 15px;
+}
+
+.project-card {
+    flex: 1;
+    max-width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 0 10px; /* Aggiungi margine tra le card se necessario */
+}
+
+.project-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-card h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+}
+
+.text-home{
+    color: #1e90ff;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.about-me {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+}
+
+.about-me .highlight {
+    color: #1e90ff;
+    font-weight: bold;
+}
