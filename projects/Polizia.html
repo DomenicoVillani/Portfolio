@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progetto 1</title>
+    <title>Gestionale polizia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
+    <style>
+        .div-text {
+            margin: 0 20%;
+        }
+        .width-div {
+            width: 45%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,14 +27,25 @@
         </nav>
     </header>
     <section>
-        <h1>Progetto 1</h1>
-        <p>Descrizione dettagliata del progetto 1.</p>
-        <video controls>
-            <source src="../videos/project1.mp4" type="video/mp4">
-            Il tuo browser non supporta il tag video.
-        </video>
+        <h1 class="text-center my-5 blu-color">Gestionale polizia</h1>
+        <div class="d-flex about-me div-text justify-content-between">
+            <div class="width-div">
+                <p>
+                    Il <span class="highlight">progetto</span> si concentra sull'implementazione di un'applicazione web per la polizia municipale, con quattro <span class="highlight">obiettivi</span> principali. Inizialmente, mira a fornire agli operatori uno <span class="highlight">strumento completo</span> per la gestione dei trasgressori, attraverso un'area dedicata per anagrafarli e monitorarne le attività. Inoltre, <span class="highlight">semplifica</span> il processo di compilazione dei verbali, offrendo un catalogo <span class="highlight">completo</span> delle violazioni contestabili.
+                </p>
+            </div>
+            <div class="width-div">
+                <p>
+                    La piattaforma si focalizza sull'<span class="highlight">ottimizzazione</span> della raccolta e dell'analisi dei dati, fornendo agli operatori un'interfaccia <span class="highlight">intuitiva</span> per visualizzare informazioni aggregate. Questo include <span class="highlight">statistiche dettagliate</span>, come il totale dei verbali emessi e dei punti decurtati per ogni trasgressore. Per lo <span class="highlight">sviluppo</span> del back-end, è stato utilizzato ASP.NET Core, mentre per l'aspetto grafico sono state impiegate tecnologie come CSS e Bootstrap.
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NQBD1sguHS4?si=6MddV2pRKayi8W6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="text-center mt-2"><a href="https://github.com/DomenicoVillani/Polizia" target="_blank">Link Repo Github</a></p>
     </section>
-    <footer>
+    <footer class="mt-5">
         <div class="d-flex justify-content-evenly">
             <p class="mt-2">&copy; <span id="anno"></span> Domenico Villani.</p>
             <div class="d-flex">
